@@ -19,14 +19,22 @@ function App() {
   };
 
   return (
-    <><div className="App">
-      <button onClick={getJoke}>Click to request joke</button>
-    </div>
-    <div className="jokes">
-        Setup: {joke} <br></br>
-        <br></br>
-        Delivery: {response}
-    </div></>
+    <>
+      <div className="App bg-indigo">
+        <button
+          onClick={getJoke}
+          className="text-2xl text-white font-bold no-underline bg-green-700 py-2 px-4 rounded hover:bg-indigo-800"
+        >
+          Click to request joke
+        </button>
+      </div>
+      <div className="jokes" id="joke">
+        {joke} <br></br>
+        <br>
+        </br>
+        {response}
+      </div>
+    </>
   );
 }
 

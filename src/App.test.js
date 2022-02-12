@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
+import React from 'react';
+import reactDom from 'react-dom';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('has data', () => {
+  const { getJoke } = App
+  expect((getJoke)).toBeCalled
 });
+
+test('if joke is from object', () => {
+  const { joke } = App
+  expect(joke).toMatchObject
+})
