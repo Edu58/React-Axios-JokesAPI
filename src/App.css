@@ -26,3 +26,9 @@
   font-weight: 600;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 425px) {
+  .jokes {
+    width: 95%;
+  }
+}

@@ -28,7 +28,7 @@ function App() {
           Click to request joke
         </button>
       </div>
-      <div className="jokes" id="joke">
+      <div className="jokes">
         {joke} <br></br>
         <br>
         </br>
