@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Axios-JokesAPI/static/css/main.456d360b.css",
+    "main.js": "/React-Axios-JokesAPI/static/js/main.de315fd3.js",
+    "static/js/787.8b4a3ed4.chunk.js": "/React-Axios-JokesAPI/static/js/787.8b4a3ed4.chunk.js",
+    "index.html": "/React-Axios-JokesAPI/index.html",
+    "main.456d360b.css.map": "/React-Axios-JokesAPI/static/css/main.456d360b.css.map",
+    "main.de315fd3.js.map": "/React-Axios-JokesAPI/static/js/main.de315fd3.js.map",
+    "787.8b4a3ed4.chunk.js.map": "/React-Axios-JokesAPI/static/js/787.8b4a3ed4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.456d360b.css",
+    "static/js/main.de315fd3.js"
+  ]
+}
